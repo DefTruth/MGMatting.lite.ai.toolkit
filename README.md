@@ -14,12 +14,12 @@
 ## 2. C++版本源码
 
 MGMatting C++ 版本的源码包含ONNXRuntime、MNN和TNN三个版本，源码可以在 [lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) 工具箱中找到。本项目主要介绍如何基于 [lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) 工具箱，直接使用MGMatting来跑人像抠图。需要说明的是，本项目是基于MacOS下编译的 [liblite.ai.toolkit.v0.1.0.dylib](https://github.com/DefTruth/yolox.lite.ai.toolkit/blob/main/lite.ai.toolkit/lib) 来实现的，对于使用MacOS的用户，可以直接下载本项目包含的*liblite.ai.toolkit.v0.1.0*动态库和其他依赖库进行使用。而非MacOS用户，则需要从[lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) 中下载源码进行编译。[lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) c++工具箱目前包含80+流行的开源模型，就不多介绍了，只是平时顺手捏的，整合了自己学习过程中接触到的一些模型，感兴趣的同学可以去看看。
-* [mgmatting.cpp](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ort/cv/mgmatting.cpp)
-* [mgmatting.h](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ort/cv/mgmatting.h)
-* [mnn_mgmatting.cpp](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_mgmatting.cpp)
-* [mnn_mgmatting.h](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_mgmatting.h)
-* [tnn_mgmatting.cpp](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_mgmatting.cpp)
-* [tnn_mgmatting.h](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_mgmatting.h)
+* [mg_matting.cpp](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ort/cv/mg_matting.cpp)
+* [mg_matting.h](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ort/cv/mg_matting.h)
+* [mnn_mg_matting.cpp](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_mg_matting.cpp)
+* [mnn_mg_matting.h](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_mg_matting.h)
+* [tnn_mg_matting.cpp](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_mg_matting.cpp)
+* [tnn_mg_matting.h](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_mg_matting.h)
 
 ONNXRuntime C++、MNN和TNN版本的推理实现均已测试通过，欢迎白嫖~  
 
