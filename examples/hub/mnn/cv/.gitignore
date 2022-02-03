@@ -1,0 +1,6 @@
+*.param
+*.bin
+*.mnn
+*.tnnproto
+*.tnnmodel
+*.onnx
